@@ -186,7 +186,7 @@ def main():
     model.save(model_path)
 
     # печать результатов 
-    print("ЛР4 БЕНЧМАРК (10k эпох)")
+    print("БЕНЧМАРК")
     print("Продукт:", product)
     print("Эпохи:", epochs)
     print(f"Время обучения, c: {train_time:.3f}")
@@ -201,3 +201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
